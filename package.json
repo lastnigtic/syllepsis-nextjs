@@ -1,5 +1,5 @@
 {
-  "name": "learn-starter",
+  "name": "syllepsis-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@syllepsis/access-react": "0.0.1",
+    "@syllepsis/plugin-basic": "0.0.1",
+    "@syllepsis/plugin-code-block": "0.0.1",
+    "@syllepsis/plugin-table": "0.0.1",
     "next": "^11.0.0",
+    "next-transpile-modules": "^8.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   }
